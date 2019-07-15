@@ -150,7 +150,7 @@ provinceName | String|yes|  省名称
 ###### Request URL :services/member/updateUdmBudgetPlan
 ###### Request Method : POST
 ###### parameters :
-###### 原有参数不在赘述,下表只展示本次改动
+###### 原有参数不再赘述,下表只展示本次改动
 name | type |is null | explain
 ---|--- | ---|---
 openingBankBranch| String | yes | 开户支行
