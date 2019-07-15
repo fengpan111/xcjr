@@ -75,6 +75,7 @@ refcode| number | no | 开票信息编号
 name | type |is null | explain
 ---|--- | ---|---
 onlyFirst | boolean| yes | 1:只查第1条信息
+contacts | String | yes | 联系人模糊查询
 
 ###### Rseponse
 
