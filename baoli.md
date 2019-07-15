@@ -146,12 +146,22 @@ areaLevel| String | no | 1:省,2: 市
 provinceName | String|yes|  省名称
 
 ---
-###更新资金计划信息
+### 更新资金计划信息
 ###### Request URL :services/member/updateUdmBudgetPlan
 ###### Request Method : POST
 ###### parameters :
-==原有参数不在赘述,下表只展示==
+###### 原有参数不在赘述,下表只展示本次改动
 name | type |is null | explain
 ---|--- | ---|---
-areaLevel| String | no | 1:省,2: 市
-provinceName | String|yes|  省名称
+openingBankBranch| String | yes | 开户支行
+provinceOfAccount | String|yes|  账户所在省
+cityOfAccount | String|yes|  账户所在城市
+invoiceType | String|yes|  开票类型: 0:增值税普通发票,1:增值税专用发票
+invoiceTxIdentityNumber | String|yes|  开票纳税人识别号
+invoiceRegisterAddr | String|yes|  开票注册地址
+invoiceRegisterTel | String|yes|  开票注册电话
+invoiceOpeningBank | String|yes|  开票开户行
+invoiceOpeningBankAccount | String|yes|  开票开户行账号
+invoiceOpeningBankBranch | String|yes|  开票开户支行
+invoiceCompanyName | String|yes|  开票单位名称
+
